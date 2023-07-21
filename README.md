@@ -13,7 +13,7 @@ Make sure you have the following installed on your system before using the port 
 Run the script from the command line providing the IP address and the ports you want to scan. Below is the command format:
 
 ```bash
-./portscanner.sh -i <ip_address> -p <ports>
+./portscan.sh -i <ip_address> -p <ports>
 ```
 
 Where:
@@ -26,7 +26,7 @@ Example
 Here's an example of how to use the port scanner:
 
 ```
-./portscanner.sh -i 192.168.0.1 -p 80-100
+./portscan.sh -i 192.168.0.1 -p 80-100
 ```
 
 ## Options
@@ -34,4 +34,4 @@ Here's an example of how to use the port scanner:
 The port scanner supports the following options:
 
     -i, --ip: Specifies the IP address of the host you want to scan.
-    -p, --ports: Specifies the ports you want to scan. You can provide a single port or a range of ports in the "start-end" format.
+    -p, --puertos: Specifies the ports you want to scan. You can provide a single port or a range of ports in the "start-end" format.
